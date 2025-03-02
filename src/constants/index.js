@@ -1,76 +1,84 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project2.png";
+import project2 from "../assets/projects/project-1.png";
+import project3 from "../assets/projects/4.png";
+import project4 from "../assets/projects/3.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting visually appealing and user-friendly web applications. With hands-on experience in web design and development, I specialize in technologies like JavaScript, React, Next.js, HTML, and CSS. I have built and maintained websites, ensuring responsive design, optimized performance, and seamless user experiences. My goal is to leverage my expertise in frontend development to create innovative and scalable solutions that drive business growth and deliver exceptional user experiences. I am a quick learner, adaptable to new technologies, and committed to delivering high-quality results in every project I undertake`;
+
+export const ABOUT_TEXT = `I am a dedicated and versatile software developer with a passion for creating efficient and user-friendly digital solutions. With hands-on experience in web design, software development, and IT support, I have worked with technologies such as JavaScript, React, Next.js, WordPress, Elixir, and PostgreSQL. My journey in technology began with a deep curiosity for problem-solving, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to innovative projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+  year: "Jan 2025 - Current",
+  role: "Frontend Developer (Self-Employed)",
+  company: "Freelance",
+  description: `Designed and developed modern, responsive web applications using React, Next.js, Tailwind CSS, and shadcn. Delivered high-quality, user-friendly interfaces and ensured optimal performance across devices. Managed project timelines and collaborated with clients to bring their visions to life.`,
+  technologies: ["React", "Next.js", "Tailwind CSS", "shadcn", "JavaScript"],
+},
+  {
+    year: "Oct 2024 - Dec 2024",
+    role: "Web Designer",
+    company: "Technology Associates Limited",
+    description: `Designed and maintained the official website for the company. Made regular updates, including adding blogs, images, and content. Managed domains and hosting plans.`,
+    technologies: ["HTML", "CSS", "WordPress", "SEO"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "Mar 2024 - Aug 2024",
+    role: "Web Designer (Remote)",
+    company: "Freelance",
+    description: `Built digital assets for businesses and individuals, including portfolios, e-commerce sites, and blogs. Developed and maintained WordPress websites with custom themes and plugins, ensuring responsive design and optimized performance. Integrated SEO best practices and provided ongoing website maintenance and technical support.`,
+    technologies: ["WordPress", "Elementor", "WooCommerce", "Google Analytics"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "Jun 2024 - Aug 2024",
+    role: "Apprentice Software Developer (Contract)",
+    company: "Pyraus Group (Remote)",
+    description: `Contributed to the development of the company’s software using Elixir and the Phoenix framework. Designed, created, and managed relational databases for various application features. Assisted in adding new features and collaborated in daily standups and code reviews.`,
+    technologies: ["Elixir", "Phoenix", "PostgreSQL", "Git", "Agile Development"],
   },
+ 
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Jul 2022 - Sep 2022",
+    role: "IT Assistant / License Officer (Intern)",
+    company: "Nakuru County Government",
+    description: `Processed license applications and ensured network uptime for office operations. Performed routine maintenance on office computers and provided technical support. Ensured servers were up and running optimally.`,
+    technologies: ["Technical Support", "Network Maintenance", "Server Management"],
   },
 ];
-
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "React Jobs Board",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional job application board with features like jobs listing, adding jobs, editting, and deleting jobs. The backend is a JSON Server with a proxy",
+    technologies: ["HTML", "CSS", "React", ],
   },
   {
-    title: "Task Management App",
+    title: "E$M Tech Hub Landing Page",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A landing page tailored for my company E&M Tech Hub featuring all their services, products and about",
+    technologies: ["HTML", "CSS", "React", "Nextjs"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "Nextjs"],
   },
   {
-    title: "Blogging Platform",
+    title: "Instagram Clone",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A simple instagram clone with features like adding photos in real time and likes",
+    technologies: ["Elixir"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Nairobi, Kenya ",
+  phoneNo: "+254 716836186 ",
+  email: "alexnjoroge102@gmail.com",
 };
