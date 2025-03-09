@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project2.png";
 import project2 from "../assets/projects/project-1.png";
 import project3 from "../assets/projects/4.png";
-import project4 from "../assets/projects/3.png";
+import project4 from "../assets/projects/12.png";
 
 
 export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting visually appealing and user-friendly web applications. With hands-on experience in web design and development, I specialize in technologies like JavaScript, React, Next.js, HTML, and CSS. I have built and maintained websites, ensuring responsive design, optimized performance, and seamless user experiences. My goal is to leverage my expertise in frontend development to create innovative and scalable solutions that drive business growth and deliver exceptional user experiences. I am a quick learner, adaptable to new technologies, and committed to delivering high-quality results in every project I undertake`;
@@ -51,8 +51,9 @@ export const PROJECTS = [
     title: "React Jobs Board",
     image: project1,
     description:
-      "A fully functional job application board with features like jobs listing, adding jobs, editting, and deleting jobs. The backend is a JSON Server with a proxy",
-    technologies: ["HTML", "CSS", "React", ],
+      "A fully functional job application board with features like jobs listing, adding jobs, editing, and deleting jobs. The backend is a JSON Server with a proxy",
+    technologies: ["HTML", "CSS", "React"],
+    link: "https://react-jobs-board.example.com"
   },
   {
     title: "E$M Tech Hub Landing Page",
@@ -60,6 +61,7 @@ export const PROJECTS = [
     description:
       "A landing page tailored for my company E&M Tech Hub featuring all their services, products and about",
     technologies: ["HTML", "CSS", "React", "Nextjs"],
+    link: "https://em-tech-house.vercel.app/"
   },
   {
     title: "Portfolio Website",
@@ -67,16 +69,17 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Nextjs"],
+    link: "https://alexs-portfolio.vercel.app/"
   },
-  {
-    title: "Instagram Clone",
+   {
+    title: "Loan Master",
     image: project4,
     description:
-      "A simple instagram clone with features like adding photos in real time and likes",
-    technologies: ["Elixir"],
-  },
+      "A comprehensive loan management system that enables users to manage loans, repayments, and customer details efficiently.",
+    technologies: ["React", "Next.js", "Node.js"],
+    link: "https://loan-management-app-pearl.vercel.app/"
+  }
 ];
-
 export const CONTACT = {
   address: "Nairobi, Kenya ",
   phoneNo: "+254 716836186 ",
