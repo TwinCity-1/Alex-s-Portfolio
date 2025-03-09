@@ -10,6 +10,14 @@ export const ABOUT_TEXT = `I am a dedicated and versatile software developer wit
 
 export const EXPERIENCES = [
   {
+    year: "March 2025 - Current",
+    role: "Frontend Developer",
+    company: "E&M Tech Hub- Tatu City",
+    description: "Works as a Frontend developer building interfaces for Fintecn products in the Financial sector including Saccos, Banks, Loan companies and more. ",
+    technoligies:["React", "Nextjs", "Typescript","Tailwind CSS"]
+  },
+
+  {
   year: "Jan 2025 - Current",
   role: "Frontend Developer (Self-Employed)",
   company: "Freelance",
