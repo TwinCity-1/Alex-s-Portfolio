@@ -10,37 +10,32 @@ export const ABOUT_TEXT = `I am a dedicated and versatile software developer wit
 
 export const EXPERIENCES = [
   {
-    year: "March 2025 - Current",
-    role: "Frontend Developer",
-    company: "E&M Tech Hub- Tatu City",
-    description: "Works as a Frontend developer building interfaces for Fintecn products in the Financial sector including Saccos, Banks, Loan companies and more. ",
-    technoligies:["React", "Nextjs", "Typescript","Tailwind CSS"]
-  },
+  year: "March 2025 - Current",
+  role: "Frontend Developer",
+  company: "E&M Technology House - Tatu City",
+  description: `Designs and develops dynamic, responsive web applications in finance and banking. Implements modern UI/UX best practices, optimizes application performance, and integrates APIs for seamless functionality. Collaborates with backend engineers and stakeholders to deliver scalable, secure, and efficient solutions.`,
+  technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux", "REST API"]
+}
+,
 
   {
-  year: "Jan 2025 - Current",
-  role: "Frontend Developer (Self-Employed)",
-  company: "Freelance",
-  description: `Designed and developed modern, responsive web applications using React, Next.js, Tailwind CSS, and shadcn. Delivered high-quality, user-friendly interfaces and ensured optimal performance across devices. Managed project timelines and collaborated with clients to bring their visions to life.`,
+  year: "Jan 2025 - March 2025",
+  role: "Frontend Developer ",
+  company: "Client Contract",
+  description: `Lead a two man team to design and develop a modern responsive dashboard web app  using React, Next.js, Tailwind CSS, and Shadcn for a client in the logistics industry. He was running a medium sized perishable goods logistics comapny with about 30 employees and wanted a central system to manage resources, salaries, trucks, rent, truck mainetance spending among other features. Collaborated with a backend developer who created a dedicated backend`,
   technologies: ["React", "Next.js", "Tailwind CSS", "shadcn", "JavaScript"],
 },
   {
     year: "Oct 2024 - Dec 2024",
-    role: "Web Designer",
+    role: "Web Developer",
     company: "Technology Associates Limited",
     description: `Designed and maintained the official website for the company. Made regular updates, including adding blogs, images, and content. Managed domains and hosting plans.`,
-    technologies: ["HTML", "CSS", "WordPress", "SEO"],
+    technologies: ["HTML", "CSS", "React", "Javascript", "WordPress", "SEO"],
   },
-  {
-    year: "Mar 2024 - Aug 2024",
-    role: "Web Designer (Remote)",
-    company: "Freelance",
-    description: `Built digital assets for businesses and individuals, including portfolios, e-commerce sites, and blogs. Developed and maintained WordPress websites with custom themes and plugins, ensuring responsive design and optimized performance. Integrated SEO best practices and provided ongoing website maintenance and technical support.`,
-    technologies: ["WordPress", "Elementor", "WooCommerce", "Google Analytics"],
-  },
+ 
   {
     year: "Jun 2024 - Aug 2024",
-    role: "Apprentice Software Developer (Contract)",
+    role: "Apprentice Backend Developer (Contract)",
     company: "Pyraus Group (Remote)",
     description: `Contributed to the development of the company’s software using Elixir and the Phoenix framework. Designed, created, and managed relational databases for various application features. Assisted in adding new features and collaborated in daily standups and code reviews.`,
     technologies: ["Elixir", "Phoenix", "PostgreSQL", "Git", "Agile Development"],
@@ -60,31 +55,23 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional job application board with features like jobs listing, adding jobs, editing, and deleting jobs. The backend is a JSON Server with a proxy",
-    technologies: ["HTML", "CSS", "React"],
+    technologies: ["HTML", "React", "Tailwind CSS", "JSON Server"],
     link: "https://react-jobs-board.example.com"
   },
   {
-    title: "E$M Tech Hub Landing Page",
+    title: "E&M Tech Hub Landing Page",
     image: project2,
     description:
       "A landing page tailored for my company E&M Tech Hub featuring all their services, products and about",
-    technologies: ["HTML", "CSS", "React", "Nextjs"],
+    technologies: ["HTML", "React", "Nextjs", "Tailwind CSS"],
     link: "https://em-tech-house.vercel.app/"
   },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Nextjs"],
-    link: "https://alexs-portfolio.vercel.app/"
-  },
-   {
+     {
     title: "Loan Master",
     image: project4,
     description:
       "A comprehensive loan management system that enables users to manage loans, repayments, and customer details efficiently.",
-    technologies: ["React", "Next.js", "Node.js"],
+    technologies: ["React", "Next.js", "Tailwind CSS","Shadcn"],
     link: "https://loan-management-app-pearl.vercel.app/"
   }
 ];
