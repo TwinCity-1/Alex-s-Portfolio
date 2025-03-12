@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project2.png";
 import project2 from "../assets/projects/project-1.png";
 import project3 from "../assets/projects/4.png";
 import project4 from "../assets/projects/12.png";
+import project5 from "../assets/projects/5.png"
 
 
 export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting visually appealing and user-friendly web applications. With hands-on experience in web design and development, I specialize in technologies like JavaScript, React, Next.js, HTML, and CSS. I have built and maintained websites, ensuring responsive design, optimized performance, and seamless user experiences. My goal is to leverage my expertise in frontend development to create innovative and scalable solutions that drive business growth and deliver exceptional user experiences. I am a quick learner, adaptable to new technologies, and committed to delivering high-quality results in every project I undertake`;
@@ -10,21 +11,21 @@ export const ABOUT_TEXT = `I am a dedicated and versatile software developer wit
 
 export const EXPERIENCES = [
   {
-  year: "March 2025 - Current",
-  role: "Frontend Developer",
-  company: "E&M Technology House - Tatu City",
-  description: `Designs and develops dynamic, responsive web applications in finance and banking. Implements modern UI/UX best practices, optimizes application performance, and integrates APIs for seamless functionality. Collaborates with backend engineers and stakeholders to deliver scalable, secure, and efficient solutions.`,
-  technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux", "REST API"]
-}
-,
+    year: "March 2025 - Current",
+    role: "Frontend Developer",
+    company: "E&M Technology House - Tatu City",
+    description: `Designs and develops dynamic, responsive web applications in finance and banking. Implements modern UI/UX best practices, optimizes application performance, and integrates APIs for seamless functionality. Collaborates with backend engineers and stakeholders to deliver scalable, secure, and efficient solutions.`,
+    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux", "REST API"]
+  }
+  ,
 
   {
-  year: "Jan 2025 - March 2025",
-  role: "Frontend Developer ",
-  company: "Client Contract",
-  description: `Lead a two man team to design and develop a modern responsive dashboard web app  using React, Next.js, Tailwind CSS, and Shadcn for a client in the logistics industry. He was running a medium sized perishable goods logistics comapny with about 30 employees and wanted a central system to manage resources, salaries, trucks, rent, truck mainetance spending among other features. Collaborated with a backend developer who created a dedicated backend`,
-  technologies: ["React", "Next.js", "Tailwind CSS", "shadcn", "JavaScript"],
-},
+    year: "Jan 2025 - March 2025",
+    role: "Frontend Developer ",
+    company: "Client Contract",
+    description: `Lead a two man team to design and develop a modern responsive dashboard web app  using React, Next.js, Tailwind CSS, and Shadcn for a client in the logistics industry. He was running a medium sized perishable goods logistics comapny with about 30 employees and wanted a central system to manage resources, salaries, trucks, rent, truck mainetance spending among other features. Collaborated with a backend developer who created a dedicated backend`,
+    technologies: ["React", "Next.js", "Tailwind CSS", "shadcn", "JavaScript"],
+  },
   {
     year: "Oct 2024 - Dec 2024",
     role: "Web Developer",
@@ -32,7 +33,7 @@ export const EXPERIENCES = [
     description: `Designed and maintained the official website for the company. Made regular updates, including adding blogs, images, and content. Managed domains and hosting plans.`,
     technologies: ["HTML", "CSS", "React", "Javascript", "WordPress", "SEO"],
   },
- 
+
   {
     year: "Jun 2024 - Aug 2024",
     role: "Apprentice Backend Developer (Contract)",
@@ -40,7 +41,7 @@ export const EXPERIENCES = [
     description: `Contributed to the development of the company’s software using Elixir and the Phoenix framework. Designed, created, and managed relational databases for various application features. Assisted in adding new features and collaborated in daily standups and code reviews.`,
     technologies: ["Elixir", "Phoenix", "PostgreSQL", "Git", "Agile Development"],
   },
- 
+
   {
     year: "Jul 2022 - Sep 2022",
     role: "IT Assistant / License Officer (Intern)",
@@ -50,6 +51,13 @@ export const EXPERIENCES = [
   },
 ];
 export const PROJECTS = [
+  {
+    title: "Financial Admin Dashboard",
+    image: project5,
+    description: "A dashboard for a financial Saas product where an admin can visualize the performance of the product including transactions, cash balances, users, and more. Incorporated recharts for visualization, tailwindcss for styling. The project is done in Nextjs",
+    technologies: ["Nextjs", "React", "TailwindCSS", "Recharts",],
+    link: "https://financial-admin-dashboard-hmjp.vercel.app/"
+  },
   {
     title: "React Jobs Board",
     image: project1,
@@ -66,12 +74,12 @@ export const PROJECTS = [
     technologies: ["HTML", "React", "Nextjs", "Tailwind CSS"],
     link: "https://em-tech-house.vercel.app/"
   },
-     {
+  {
     title: "Loan Master",
     image: project4,
     description:
       "A comprehensive loan management system that enables users to manage loans, repayments, and customer details efficiently.",
-    technologies: ["React", "Next.js", "Tailwind CSS","Shadcn"],
+    technologies: ["React", "Next.js", "Tailwind CSS", "Shadcn"],
     link: "https://loan-management-app-pearl.vercel.app/"
   }
 ];
