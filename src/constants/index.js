@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-1.png";
 import project3 from "../assets/projects/4.png";
 import project4 from "../assets/projects/12.png";
 import project5 from "../assets/projects/5.png"
+import project6 from "../assets/projects/6.png"
 
 
 export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting visually appealing and user-friendly web applications. With hands-on experience in web design and development, I specialize in technologies like JavaScript, React, Next.js, HTML, and CSS. I have built and maintained websites, ensuring responsive design, optimized performance, and seamless user experiences. My goal is to leverage my expertise in frontend development to create innovative and scalable solutions that drive business growth and deliver exceptional user experiences. I am a quick learner, adaptable to new technologies, and committed to delivering high-quality results in every project I undertake`;
@@ -52,6 +53,13 @@ export const EXPERIENCES = [
 ];
 export const PROJECTS = [
   {
+    title: "Torque Labs Admin Dashboard",
+    image: project6,
+    description: "A dashboard built to track the performance of a luxury car spare parts shop by managing inventory, orders, customers, and analytics. The purpose of this project was to experiment with fast project development by leveraging the high end Shadcn UI library and its reusable component blocks. The result is a modern and sleek looking UI.",
+    technologies: ["Nextjs", "Shadcn", "React", "Tailwind"],
+    link: "https://torque-labs-admin-dashboard.vercel.app/"
+  },
+  {
     title: "Financial Admin Dashboard",
     image: project5,
     description: "A dashboard for a financial Saas product where an admin can visualize the performance of the product including transactions, cash balances, users, and more. Incorporated recharts for visualization, tailwindcss for styling. The project is done in Nextjs",
@@ -75,7 +83,7 @@ export const PROJECTS = [
     link: "https://em-tech-house.vercel.app/"
   },
   {
-    title: "Loan Master",
+    title: "Loan Management System",
     image: project4,
     description:
       "A comprehensive loan management system that enables users to manage loans, repayments, and customer details efficiently.",
