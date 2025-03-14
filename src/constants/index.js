@@ -4,6 +4,8 @@ import project3 from "../assets/projects/4.png";
 import project4 from "../assets/projects/12.png";
 import project5 from "../assets/projects/5.png"
 import project6 from "../assets/projects/6.png"
+import project7 from "../assets/projects/7.png"
+
 
 
 export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting visually appealing and user-friendly web applications. With hands-on experience in web design and development, I specialize in technologies like JavaScript, React, Next.js, HTML, and CSS. I have built and maintained websites, ensuring responsive design, optimized performance, and seamless user experiences. My goal is to leverage my expertise in frontend development to create innovative and scalable solutions that drive business growth and deliver exceptional user experiences. I am a quick learner, adaptable to new technologies, and committed to delivering high-quality results in every project I undertake`;
@@ -52,6 +54,16 @@ export const EXPERIENCES = [
   },
 ];
 export const PROJECTS = [
+  {
+
+    title: "IvyLink School Management System",
+    image: project7,
+    description: "IvyLink is a first-rate school management system designed for elite international schools in Nairobi. It streamlines administration, student enrollment, performance tracking, and communication between educators, students, and parents. Built with modern UI/UX principles, IvyLink ensures efficiency, security, and seamless management of school operations.",
+    technologies: ["Next.js", "Shadcn", "React", "Tailwind", "Node.js"],
+    link: "https://school-management-system-mu-ten.vercel.app/"
+
+
+  },
   {
     title: "Torque Labs Admin Dashboard",
     image: project6,
