@@ -5,6 +5,7 @@ import project4 from "../assets/projects/12.png";
 import project5 from "../assets/projects/5.png"
 import project6 from "../assets/projects/6.png"
 import project7 from "../assets/projects/7.png"
+import project8 from "../assets/projects/8.png"
 
 
 
@@ -55,8 +56,17 @@ export const EXPERIENCES = [
 ];
 export const PROJECTS = [
   {
+    title: "Fintech-Pro",
+    image: project8,
+    description: "FintechPro is a modern, user-friendly financial technology (fintech) application designed to streamline and simplify the management of customers, accounts, and transactions. It is built using React for the frontend, Tailwind CSS for styling, and localStorage for data persistence. The application leverages the React Context API for state management and React Router for navigation, ensuring a seamless and efficient user experience",
+    technologies: ["React", "TailwindCSS"],
+    link: "https://fintech-pro.vercel.app/"
 
-    title: "IvyLink School Management System",
+
+  },
+  {
+
+    title: "Ivy-Link School Management System",
     image: project7,
     description: "IvyLink is a first-rate school management system designed for elite international schools in Nairobi. It streamlines administration, student enrollment, performance tracking, and communication between educators, students, and parents. Built with modern UI/UX principles, IvyLink ensures efficiency, security, and seamless management of school operations.",
     technologies: ["Next.js", "Shadcn", "React", "Tailwind", "Node.js"],
