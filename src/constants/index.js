@@ -1,25 +1,36 @@
-import project1 from "../assets/projects/project2.png";
-import project2 from "../assets/projects/project-1.png";
-import project3 from "../assets/projects/4.png";
-import project4 from "../assets/projects/12.png";
+import project1 from "../assets/projects/project2.png"
+import project2 from "../assets/projects/project-1.png"
+import project4 from "../assets/projects/12.png"
 import project5 from "../assets/projects/5.png"
 import project6 from "../assets/projects/6.png"
 import project7 from "../assets/projects/7.png"
 import project8 from "../assets/projects/8.png"
+import project9 from "../assets/projects/9.png"
+import project11 from "../assets/projects/11.png"
+import project13 from "../assets/projects/13.png"
+import project14 from "../assets/projects/14.png"
 
 
 
-export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting visually appealing and user-friendly web applications. With hands-on experience in web design and development, I specialize in technologies like JavaScript, React, Next.js, HTML, and CSS. I have built and maintained websites, ensuring responsive design, optimized performance, and seamless user experiences. My goal is to leverage my expertise in frontend development to create innovative and scalable solutions that drive business growth and deliver exceptional user experiences. I am a quick learner, adaptable to new technologies, and committed to delivering high-quality results in every project I undertake`;
+export const HERO_CONTENT = `I’m a full-stack and mobile developer passionate about crafting seamless, high-performance digital experiences.
 
-export const ABOUT_TEXT = `I am a dedicated and versatile software developer with a passion for creating efficient and user-friendly digital solutions. With hands-on experience in web design, software development, and IT support, I have worked with technologies such as JavaScript, React, Next.js, WordPress, Elixir, and PostgreSQL. My journey in technology began with a deep curiosity for problem-solving, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to innovative projects.`;
+My toolkit includes Next.js, React, TailwindCSS, tRPC, Prisma, and PostgreSQL and I’ve also ventured into Flutter and Kotlin for mobile.
+I specialize in building scalable systems that blend clean UI with solid backend architecture from modern dashboards and admin panels to cross-platform apps that feel fluid and alive. My goal is to bridge creativity and logic delivering software that’s fast, functional, and beautiful.
+I’m driven by curiosity, design precision, and the thrill of solving hard problems.`;
+
+export const ABOUT_TEXT = `I’m a multidisciplinary software developer with hands-on experience across web and mobile. My journey began with JavaScript and evolved through React and Next.js, where I learned to merge frontend craftsmanship with backend logic using API routes, tRPC, Prisma, and PostgreSQL.
+
+At the same time, I expanded into mobile development — building native Android apps in Kotlin and experimenting with Flutter for cross-platform solutions. I’ve contributed to enterprise-grade systems, handled live production code, and built custom tools that optimize workflows.
+
+Outside of code, I’m driven by growth — learning new technologies, sharing knowledge, and connecting with other builders shaping Africa’s tech scene. My work reflects a single principle: build it clean, build it fast, build it right.`;
 
 export const EXPERIENCES = [
   {
     year: "March 2025 - Current",
-    role: "Frontend Developer",
+    role: "Frontend & Mobile App Engineer",
     company: "E&M Technology House - Tatu City",
-    description: `Designs and develops dynamic, responsive web applications in finance and banking. Implements modern UI/UX best practices, optimizes application performance, and integrates APIs for seamless functionality. Collaborates with backend engineers and stakeholders to deliver scalable, secure, and efficient solutions.`,
-    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux", "REST API"]
+    description: `I develop dynamic, responsive web applications and Mobile Applications in finance and banking. I also implement modern UI/UX best practices, optimizes application performance, and integrates APIs for seamless functionality. Collaborates with backend engineers and stakeholders to deliver scalable, secure, and efficient solutions.`,
+    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Flutter", "REST API"]
   }
   ,
 
@@ -56,6 +67,43 @@ export const EXPERIENCES = [
 ];
 export const PROJECTS = [
   {
+  title: "Pulse360 - Integrated ERP & POS System",
+  image: project14,
+  description: "Pulse360 is a next-generation enterprise and point-of-sale web application built to unify business operations under one intelligent system. It combines the power of ERP automation with seamless POS transactions. The platform features modules for sales, inventory, reports, customers, and user management — all connected through secure authentication and real-time data synchronization.",
+  technologies: ["Next.js","Tailwind","tRPC", "Prisma","NextAuth.js","PostgreSQL"],
+  link: "https://github.com/AlexNjorogeEMTH/neuroerp"
+},
+{
+  title: "SmartTrack - Digital Banking & Budget Tracker",
+  image: project13,
+  description: "SmartTrack is a premium digital banking app built with Flutter, inspired by high-end Figma designs brought to life with pixel-perfect precision. The app combines modern banking features like account management, transaction history, and budget tracking with a sleek, intuitive interface. Designed for both aesthetics and performance, SmartTrack delivers a smooth, real-world fintech experience with a strong focus on usability, animations, and design fidelity.",
+  technologies: ["Flutter", "Dart", "Firebase"],
+  link: "https://github.com/AlexNjorogeEMTH/Smarttrack-app"
+},  
+{
+  title: "FinSight - Investment Dashboard App",
+  image: project9,
+  description: "FinSight is a modern financial dashboard mobile app built with Flutter, designed to help users track investments, monitor portfolio performance, and visualize transaction activity in real-time. It provides a clean, data-driven interface that simplifies complex financial insights into intuitive charts and summaries. With smooth navigation and responsive design, FinSight empowers users to stay informed and make smarter investment decisions on the go.",
+  technologies: ["Flutter", "Dart", "Firebase"],
+  link: "https://github.com/AlexNjorogeEMTH/finsight-app"
+},
+
+{
+  title: "Miro - Real-Time Messaging App",
+  image: project11,
+  description: "Miro is a sleek real-time messaging app built with Flutter and Firebase, designed for seamless communication across devices. It allows users to post, view, and share messages instantly with cloud synchronization powered by Firebase Storage and Firebase Auth. Built with scalability and responsiveness in mind, Miro delivers a smooth chat experience with secure user authentication, media uploads, and real-time updates.",
+  technologies: ["Flutter", "Firebase", "Firebase Auth", "Firebase Storage"],
+  link: "https://github.com/TwinCity-1/MIRO-Social-App"
+},
+ {
+    title: "E&M Tech Hub Landing Page",
+    image: project2,
+    description:
+      "A landing page tailored for my company E&M Tech Hub featuring all their services, products and about",
+    technologies: ["HTML", "React", "Nextjs", "Tailwind CSS"],
+    link: "https://em-tech-house.vercel.app/"
+  },
+  {
     title: "Fintech-Pro",
     image: project8,
     description: "FintechPro is a modern, user-friendly financial technology (fintech) application designed to streamline and simplify the management of customers, accounts, and transactions. It is built using React for the frontend, Tailwind CSS for styling, and localStorage for data persistence. The application leverages the React Context API for state management and React Router for navigation, ensuring a seamless and efficient user experience",
@@ -63,6 +111,14 @@ export const PROJECTS = [
     link: "https://fintech-pro.vercel.app/"
 
 
+  },
+   {
+    title: "React Jobs Board",
+    image: project1,
+    description:
+      "A fully functional job application board with features like jobs listing, adding jobs, editing, and deleting jobs. The backend is a JSON Server with a proxy",
+    technologies: ["HTML", "React", "Tailwind CSS", "JSON Server"],
+    link: "https://react-jobs-board.example.com"
   },
   {
 
@@ -74,6 +130,7 @@ export const PROJECTS = [
 
 
   },
+  
   {
     title: "Torque Labs Admin Dashboard",
     image: project6,
@@ -88,22 +145,8 @@ export const PROJECTS = [
     technologies: ["Nextjs", "React", "TailwindCSS", "Recharts",],
     link: "https://financial-admin-dashboard-hmjp.vercel.app/"
   },
-  {
-    title: "React Jobs Board",
-    image: project1,
-    description:
-      "A fully functional job application board with features like jobs listing, adding jobs, editing, and deleting jobs. The backend is a JSON Server with a proxy",
-    technologies: ["HTML", "React", "Tailwind CSS", "JSON Server"],
-    link: "https://react-jobs-board.example.com"
-  },
-  {
-    title: "E&M Tech Hub Landing Page",
-    image: project2,
-    description:
-      "A landing page tailored for my company E&M Tech Hub featuring all their services, products and about",
-    technologies: ["HTML", "React", "Nextjs", "Tailwind CSS"],
-    link: "https://em-tech-house.vercel.app/"
-  },
+ 
+ 
   {
     title: "Loan Management System",
     image: project4,
@@ -115,6 +158,8 @@ export const PROJECTS = [
 ];
 export const CONTACT = {
   address: "Nairobi, Kenya ",
-  phoneNo: "+254 716836186 ",
-  email: "alexnjoroge102@gmail.com",
+  phoneNo: "Personal: +254 716836186 ",
+  officeNo: "Office Number: +254 716090099 ",
+  email: "Personal: alexnjoroge102@gmail.com",
+  officeemail: "Office Email:  clientcare.global@gmail.com",
 };
