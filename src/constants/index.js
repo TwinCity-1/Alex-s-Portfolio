@@ -26,7 +26,7 @@ Outside of code, I’m driven by growth — learning new technologies, sharing k
 
 export const EXPERIENCES = [
   {
-    year: "March 2025 - Current",
+    year: "February 2025 - Current",
     role: "Frontend & Mobile App Engineer",
     company: "E&M Technology House - Tatu City",
     description: `I develop dynamic, responsive web applications and Mobile Applications in finance and banking. I also implement modern UI/UX best practices, optimizes application performance, and integrates APIs for seamless functionality. Collaborates with backend engineers and stakeholders to deliver scalable, secure, and efficient solutions.`,
@@ -35,14 +35,7 @@ export const EXPERIENCES = [
   ,
 
   {
-    year: "Jan 2025 - March 2025",
-    role: "Frontend Developer ",
-    company: "Client Contract",
-    description: `Lead a two man team to design and develop a modern responsive dashboard web app  using React, Next.js, Tailwind CSS, and Shadcn for a client in the logistics industry. He was running a medium sized perishable goods logistics comapny with about 30 employees and wanted a central system to manage resources, salaries, trucks, rent, truck mainetance spending among other features. Collaborated with a backend developer who created a dedicated backend`,
-    technologies: ["React", "Next.js", "Tailwind CSS", "shadcn", "JavaScript"],
-  },
-  {
-    year: "Oct 2024 - Dec 2024",
+    year: "Jan 2024 – Dec 2024",
     role: "Web Developer",
     company: "Technology Associates Limited",
     description: `Designed and maintained the official website for the company. Made regular updates, including adding blogs, images, and content. Managed domains and hosting plans.`,
@@ -50,8 +43,8 @@ export const EXPERIENCES = [
   },
 
   {
-    year: "Jun 2024 - Aug 2024",
-    role: "Apprentice Backend Developer (Contract)",
+    year: "Jun 2023 – Dec 2023",
+    role: "Frontend Developer and Apprentice Backend Developer (Contract)",
     company: "Pyraus Group (Remote)",
     description: `Contributed to the development of the company’s software using Elixir and the Phoenix framework. Designed, created, and managed relational databases for various application features. Assisted in adding new features and collaborated in daily standups and code reviews.`,
     technologies: ["Elixir", "Phoenix", "PostgreSQL", "Git", "Agile Development"],
@@ -74,27 +67,13 @@ export const PROJECTS = [
   link: "https://github.com/AlexNjorogeEMTH/neuroerp"
 },
 {
-  title: "SmartTrack - Digital Banking & Budget Tracker",
-  image: project13,
-  description: "SmartTrack is a premium digital banking app built with Flutter, inspired by high-end Figma designs brought to life with pixel-perfect precision. The app combines modern banking features like account management, transaction history, and budget tracking with a sleek, intuitive interface. Designed for both aesthetics and performance, SmartTrack delivers a smooth, real-world fintech experience with a strong focus on usability, animations, and design fidelity.",
-  technologies: ["Flutter", "Dart", "Firebase"],
-  link: "https://github.com/AlexNjorogeEMTH/Smarttrack-app"
-},  
-{
-  title: "FinSight - Investment Dashboard App",
-  image: project9,
-  description: "FinSight is a modern financial dashboard mobile app built with Flutter, designed to help users track investments, monitor portfolio performance, and visualize transaction activity in real-time. It provides a clean, data-driven interface that simplifies complex financial insights into intuitive charts and summaries. With smooth navigation and responsive design, FinSight empowers users to stay informed and make smarter investment decisions on the go.",
-  technologies: ["Flutter", "Dart", "Firebase"],
-  link: "https://github.com/AlexNjorogeEMTH/finsight-app"
-},
-
-{
   title: "Miro - Real-Time Messaging App",
   image: project11,
   description: "Miro is a sleek real-time messaging app built with Flutter and Firebase, designed for seamless communication across devices. It allows users to post, view, and share messages instantly with cloud synchronization powered by Firebase Storage and Firebase Auth. Built with scalability and responsiveness in mind, Miro delivers a smooth chat experience with secure user authentication, media uploads, and real-time updates.",
   technologies: ["Flutter", "Firebase", "Firebase Auth", "Firebase Storage"],
   link: "https://github.com/TwinCity-1/MIRO-Social-App"
 },
+
  {
     title: "E&M Tech Hub Landing Page",
     image: project2,
@@ -112,6 +91,22 @@ export const PROJECTS = [
 
 
   },
+{
+  title: "SmartTrack - Digital Banking & Budget Tracker",
+  image: project13,
+  description: "SmartTrack is a premium digital banking app built with Flutter, inspired by high-end Figma designs brought to life with pixel-perfect precision. The app combines modern banking features like account management, transaction history, and budget tracking with a sleek, intuitive interface. Designed for both aesthetics and performance, SmartTrack delivers a smooth, real-world fintech experience with a strong focus on usability, animations, and design fidelity.",
+  technologies: ["Flutter", "Dart", "Firebase"],
+  link: "https://github.com/AlexNjorogeEMTH/Smarttrack-app"
+},  
+{
+  title: "FinSight - Investment Dashboard App",
+  image: project9,
+  description: "FinSight is a modern financial dashboard mobile app built with Flutter, designed to help users track investments, monitor portfolio performance, and visualize transaction activity in real-time. It provides a clean, data-driven interface that simplifies complex financial insights into intuitive charts and summaries. With smooth navigation and responsive design, FinSight empowers users to stay informed and make smarter investment decisions on the go.",
+  technologies: ["Flutter", "Dart", "Firebase"],
+  link: "https://github.com/AlexNjorogeEMTH/finsight-app"
+},
+
+
    {
     title: "React Jobs Board",
     image: project1,
