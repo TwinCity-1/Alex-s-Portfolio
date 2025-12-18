@@ -3,7 +3,6 @@ import { FaLinkedin } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 import { FaSquareXTwitter } from 'react-icons/fa6'
 
-
 const Navbar = () => {
   return (
     <nav className='mb-20 flex items-center justify-between py-6'>
@@ -11,11 +10,16 @@ const Navbar = () => {
         <h1 className='text-white m-8 text-4xl'>Alex.</h1>
       </div>
       <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-        <FaLinkedin />
-        <FaGithub />
-        <FaSquareXTwitter/>
+        <a href="https://www.linkedin.com/in/alexnjoroge/" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com/TwinCity-1" target="_blank" rel="noopener noreferrer">
+          <FaGithub />
+        </a>
+        <a href="https://x.com/Alex_Njoroge_" target="_blank" rel="noopener noreferrer">
+          <FaSquareXTwitter />
+        </a>
       </div>
-
     </nav>
   )
 }
